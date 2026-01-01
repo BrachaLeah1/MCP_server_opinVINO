@@ -38,23 +38,24 @@ A Model Context Protocol (MCP) server that provides AI agents with powerful tool
 - pip package manager
 
 ### Setup
-
-1. **Create project directory and virtual environment:**
+1. **clone this repository:**
+   ``` git clone https://github.com/BrachaLeah1/MCP_server_opinVINO.git```
+   
+2. **Create virtual environment:**
 
 ```bash
-mkdir openvino-mcp
-cd openvino-mcp
+cd MCP_server_opinVINO
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Verify installation:**
+4. **Verify installation:**
 
 ```bash
 python openvino_mcp.py --help
